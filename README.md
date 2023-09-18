@@ -1,9 +1,22 @@
 # LipNet: Lip-Reading Deep Neural Network
 
 ## Introduction
+
 Welcome to my implementation of a Lip-Reading Deep Neural Network!
 
 It is based on the LipNet architecture, a pioneering model that connects the fields of computer vision, natural language processing (NLP), and speech recognition.
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: flex-end;">
+  <figure style="flex: 1; margin: 10px;">
+    <img src="images/preprocessed.png" width="300" alt="Predictions using preprocessed data">
+    <figcaption style="text-align: center;"><i>Preprocessed data</i></figcaption>
+  </figure>
+  <figure style="flex: 1; margin: 10px;">
+    <img src="images/unprocessed.png" width="300" alt="Prediction using unprocessed data">
+    <figcaption style="text-align: center;"><i>Unprocessed data</i></figcaption>
+  </figure>
+</div>
+
 
 The trained model produced by my implementation successfully predicted spoken words from lip movements. It was accurate in testing with both preprocessed video data similar to what it was trained, on and unprocessed video clips.
 
@@ -18,9 +31,9 @@ It combines 3D Convolutional Neural Networks (CNNs) for video processing with Re
 By bridging the gap between vision and spoken language, LipNet can be a valuable tool in various domains.
 
 ## Dataset
-In this project, we use a lip-reading training dataset created by Nicholas Renotte, derived from the larger GRID dataset (https://paperswithcode.com/dataset/grid).
+In this project, I used a lip-reading training dataset created by Nicholas Renotte, derived from the larger GRID dataset (https://paperswithcode.com/dataset/grid).
 
-This dataset includes video clips of a single speaker pronouncing words along with corresponding annotations. These annotations serve as our ground truth for training and evaluation.
+This dataset includes video clips of a single speaker pronouncing words along with corresponding annotations. These annotations served as the ground truth for training and evaluation.
 
 A GIF sample from one of the clips:
 
