@@ -6,24 +6,13 @@ Welcome to my implementation of a Lip-Reading Deep Neural Network!
 
 It is based on the LipNet architecture, a pioneering model that connects the fields of computer vision, natural language processing (NLP), and speech recognition.
 
-<!-- <div style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: flex-end;">
-  <figure style="flex: 1; margin: 10px;">
-    <img src="images/preprocessed.png" width="300">
-    <figcaption style="text-align: center;">
-        <i>Preprocessed data</i>
-    </figcaption>
-  </figure>
+LipNet is a character-based model, meaning its capability is not restricted to the words it has already been trained on. It can therefore decode words that it has never seen before.
 
-  <figure style="flex: 1; margin: 10px;">
-    <img src="images/unprocessed.png" width="300">
-    <figcaption style="text-align: center;">
-        <i>Unprocessed data</i>
-    </figcaption>
-  </figure>
-</div> -->
+My trained model successfully predicted spoken words from lip movements. It was accurate in testing with both preprocessed video data similar to what it was trained, on and unprocessed video clips.
 
-
-The trained model produced by my implementation successfully predicted spoken words from lip movements. It was accurate in testing with both preprocessed video data similar to what it was trained, on and unprocessed video clips.
+<kbd>
+  <img src="images/preprocessed.png" width="300">
+</kbd>
 
 ## Background
 
